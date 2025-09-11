@@ -58,7 +58,7 @@ export function Team() {
           </motion.div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Deneyimli{' '}
+            {' '}
             <span className="bg-gradient-to-r from-purple-600 to-orange-500 bg-clip-text text-transparent">
               Kurucularımız
             </span>
