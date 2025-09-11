@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { motion } from 'motion/react';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Play } from 'lucide-react';
 
 export function Hero() {
   return (
