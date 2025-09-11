@@ -12,7 +12,7 @@ export function Team() {
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
       linkedin: '#',
       twitter: '#',
-      email: 'mehmet@sinavkoc.ai'
+      email: 'selimefepahna123@gmail.com'
     },
     {
       name: 'Ayşe Kara',
