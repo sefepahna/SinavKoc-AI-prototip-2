@@ -19,7 +19,7 @@ export function Features() {
     {
       icon: Target,
       title: 'Hedef Odaklı Plan',
-      description: 'Sınav tarihine özel, günlük ve haftalık hedeflerle organize bir çalışma programı oluştur.',
+      description: 'Sınav tarihine özel, günlük ve haftalık hedeflerle dinamik bir çalışma programı oluştur.',
       gradient: 'from-purple-600 to-pink-600'
     },
     {
