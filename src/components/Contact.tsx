@@ -46,7 +46,7 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Adres',
-      details: 'İstanbul',
+      details: 'Levent',
       subtitle: 'İstanbul, Türkiye'
     }
   ];
