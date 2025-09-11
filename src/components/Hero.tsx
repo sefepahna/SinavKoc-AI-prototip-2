@@ -105,7 +105,7 @@ export function Hero() {
               </div>
               <div className="flex items-center">
                 <span className="text-green-500 mr-1">✓</span>
-                Kredi kartı gerektirmez
+                Taahüt gerektirmez
               </div>
               <div className="flex items-center">
                 <span className="text-green-500 mr-1">✓</span>
