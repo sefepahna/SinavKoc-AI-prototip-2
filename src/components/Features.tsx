@@ -13,7 +13,7 @@ export function Features() {
     {
       icon: Users,
       title: 'Uzman Koç Desteği',
-      description: 'Deneyimli eğitmenlerden birebir mentorluk alarak motivasyonunu yüksek tut ve hedeflerine odaklan.',
+      description: 'Deneyimli koçlardan birebir mentorluk alarak motivasyonunu yüksek tut ve hedeflerine odaklan.',
       gradient: 'from-orange-500 to-orange-600'
     },
     {
