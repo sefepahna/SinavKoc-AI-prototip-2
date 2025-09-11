@@ -25,9 +25,9 @@ export function Team() {
       email: 'hasanberkyur@outlook.com'
     },
     {
-      name: 'Prof. Dr. Ali Demir',
+      name: 'Tolga Ege Argın',
       role: 'Kurucu Ortak',
-      expertise: 'Pedagoji & Öğrenme Psikolojisi',
+      expertise: 'Mimar, Dijital Pazarlama ve Tasarım',
       bio: 'Boğaziçi Üniversitesi\'nde öğretim üyesi. 25 yıllık akademik tecrübe, öğrenme methodları uzmanı.',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
       linkedin: '#',
