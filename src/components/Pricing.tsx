@@ -33,7 +33,7 @@ export function Pricing() {
         'Haftada 1 kez uzman koç görüşmesi',
         'Sınırsız soru bankası erişimi',
         'Detaylı performans analizi',
-        'Yeni özellik ve iyileştirmelere erken erişim',
+        'Yeni özellikler ve iyileştirmelere erken erişim',
         'Gelişmiş analitik ve tahmin raporları',
         '7/24 öncelikli destek',
         'Sınav stratejileri atölyesi',
