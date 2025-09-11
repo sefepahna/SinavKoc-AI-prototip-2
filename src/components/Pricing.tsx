@@ -12,7 +12,7 @@ export function Pricing() {
       description: 'Bireysel öğrenciler için temel AI koçluk paketi',
       features: [
         'Yapay zeka destekli kişisel çalışma planı',
-        'Aylık 2 saat uzman koç görüşmesi',
+        'Ayda 1 kez uzman koç görüşmesi',
         '10.000+ soru bankası erişimi',
         'Performans takibi ve raporlama',
         'Mobil uygulama erişimi',
