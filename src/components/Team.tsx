@@ -15,8 +15,8 @@ export function Team() {
       email: 'selimefepahna123@gmail.com'
     },
     {
-      name: 'Ayşe Kara',
-      role: 'Kurucu & CTO',
+      name: 'Hasan Berk Yur',
+      role: 'Kurucu Ortak',
       expertise: 'Makine Öğrenmesi & Veri Bilimi',
       bio: 'Bahçeşe',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b5bb?w=400',
@@ -26,7 +26,7 @@ export function Team() {
     },
     {
       name: 'Prof. Dr. Ali Demir',
-      role: 'Kurucu & CPO',
+      role: 'Kurucu Ortak',
       expertise: 'Pedagoji & Öğrenme Psikolojisi',
       bio: 'Boğaziçi Üniversitesi\'nde öğretim üyesi. 25 yıllık akademik tecrübe, öğrenme methodları uzmanı.',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
