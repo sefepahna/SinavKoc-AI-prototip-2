@@ -7,7 +7,7 @@ export function Features() {
     {
       icon: Brain,
       title: 'Yapay Zeka Analizi',
-      description: 'Gelişmiş AI algoritmaları ile kişisel öğrenme tarzını analiz eder ve optimum çalışma stratejisi geliştirir.',
+      description: 'Gelişmiş AI algoritmaları ile öğrenme tarzını, deneme sonuçlarını analiz eder ve kişiselleştirilmiş çalışma stratejisi geliştirir.',
       gradient: 'from-purple-500 to-purple-600'
     },
     {
