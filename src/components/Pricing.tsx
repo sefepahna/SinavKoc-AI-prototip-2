@@ -14,7 +14,7 @@ export function Pricing() {
         'Yapay zeka destekli kişisel çalışma planı',
         'Ayda 1 kez uzman koç görüşmesi',
         '10.000+ soru bankası erişimi',
-        'Performans takibi ve raporlama',
+        'Performans analizi ve raporlama',
         'Mobil uygulama erişimi',
         'Temel analitik raporlar',
         'E-posta desteği'
