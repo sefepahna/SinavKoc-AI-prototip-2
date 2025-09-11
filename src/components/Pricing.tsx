@@ -7,7 +7,7 @@ export function Pricing() {
   const plans = [
     {
       name: 'SınavKoç Plus',
-      price: '299',
+      price: '1199',
       period: 'ay',
       description: 'Bireysel öğrenciler için temel AI koçluk paketi',
       features: [
