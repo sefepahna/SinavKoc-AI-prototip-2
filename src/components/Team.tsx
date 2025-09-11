@@ -7,7 +7,7 @@ export function Team() {
     {
       name: 'Selim Efe Pahna',
       role: 'Kurucu Ortak',
-      expertise: 'Yazılım Mühendisi',
+      expertise: 'Yazılım Mühendisi, Girişimci',
       bio: '15 yıllık eğitim sektörü tecrübesi. Stanford\'da AI araştırmaları yapmış, 100+ bilimsel makale yayınlamış.',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
       linkedin: '#',
