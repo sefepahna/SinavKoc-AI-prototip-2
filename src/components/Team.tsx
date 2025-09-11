@@ -5,8 +5,8 @@ import { Linkedin, Twitter, Mail } from 'lucide-react';
 export function Team() {
   const founders = [
     {
-      name: 'Dr. Mehmet Yılmaz',
-      role: 'Kurucu & CEO',
+      name: 'Selim Efe Pahna',
+      role: 'Kurucu Ortak',
       expertise: 'Yapay Zeka & Eğitim Teknolojileri',
       bio: '15 yıllık eğitim sektörü tecrübesi. Stanford\'da AI araştırmaları yapmış, 100+ bilimsel makale yayınlamış.',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
