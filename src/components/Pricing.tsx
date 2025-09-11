@@ -25,7 +25,7 @@ export function Pricing() {
     },
     {
       name: 'SınavKoç Pro',
-      price: '499',
+      price: '2399',
       period: 'ay',
       description: 'Yoğun hazırlık yapan öğrenciler için premium paket',
       features: [
