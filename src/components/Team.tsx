@@ -174,7 +174,7 @@ export function Team() {
           <div className="text-center mb-10">
             <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Değerlerimiz</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              SınavKoç AI\'ı kurarken benimsediğimiz temel değerler ve prensipler
+              SınavKoç AI'ı kurarken benimsediğimiz temel değerler ve prensipler
             </p>
           </div>
 
