@@ -13,7 +13,7 @@ export function Pricing() {
       features: [
         'Yapay zeka destekli kişisel çalışma planı',
         'Ayda 1 kez uzman koç görüşmesi',
-        '10.000+ soru bankası erişimi',
+        'Dinamik performans/ilerleme takibi',
         'Deneme analizi ve raporlama',
         'Mobil uygulama erişimi',
         'Pomodoro sayaç',
