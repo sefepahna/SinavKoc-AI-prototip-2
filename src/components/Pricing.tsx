@@ -16,7 +16,7 @@ export function Pricing() {
         '10.000+ soru bankası erişimi',
         'Performans analizi ve raporlama',
         'Mobil uygulama erişimi',
-        'Temel analitik raporlar',
+        'Pomodoro sayaç',
         'E-posta desteği'
       ],
       popular: false,
