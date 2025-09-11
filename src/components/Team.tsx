@@ -28,7 +28,7 @@ export function Team() {
       name: 'Tolga Ege Argın',
       role: 'Kurucu Ortak',
       expertise: 'Mimar, Dijital Pazarlama ve Tasarım',
-      bio: 'Boğaziçi Üniversitesi\'nde öğretim üyesi. 25 yıllık akademik tecrübe, öğrenme methodları uzmanı.',
+      bio: 'Yeditepe Üniversitesi Mimarlık 1. Sınıf Öğrencisi',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
       linkedin: '#',
       twitter: '#',
