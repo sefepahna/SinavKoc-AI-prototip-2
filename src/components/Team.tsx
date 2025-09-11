@@ -18,7 +18,7 @@ export function Team() {
       name: 'Hasan Berk Yur',
       role: 'Kurucu Ortak',
       expertise: 'Bilgisayar Mühendisi, Security Engineer',
-      bio: 'Bahçeşe',
+      bio: 'Münih Teknik Üniversitesi Bilgisayar Mühendisliği Son Sınıf Öğrencisi',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b5bb?w=400',
       linkedin: '#',
       twitter: '#',
