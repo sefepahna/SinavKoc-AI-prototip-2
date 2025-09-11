@@ -28,12 +28,7 @@ export function Features() {
       description: 'Binlerce soru, özet ve konu anlatımına erişim. Yapay zeka eksik konularını tespit eder.',
       gradient: 'from-orange-600 to-red-500'
     },
-    {
-      icon: TrendingUp,
-      title: 'Performans Takibi',
-      description: 'Detaylı raporlar ve istatistiklerle ilerlemenizi takip edin, güçlü ve zayıf yönlerinizi keşfedin.',
-      gradient: 'from-purple-500 to-indigo-600'
-    },
+  ,
     {
       icon: Shield,
       title: 'Güvenli Platform',
