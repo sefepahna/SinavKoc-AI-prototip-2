@@ -17,7 +17,7 @@ export function Pricing() {
         'Deneme analizi ve raporlama',
         'Mobil uygulama erişimi',
         'Pomodoro sayaç',
-        'E-posta desteği'
+        'E-posta & WhatsApp desteği'
       ],
       popular: false,
       gradient: 'from-purple-500 to-purple-600',
