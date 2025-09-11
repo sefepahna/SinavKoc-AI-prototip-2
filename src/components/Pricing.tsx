@@ -30,7 +30,7 @@ export function Pricing() {
       description: 'Yoğun hazırlık yapan öğrenciler için premium paket',
       features: [
         'Gelişmiş AI analizi ve öneriler',
-        'Haftalık 4 saat uzman koç görüşmesi',
+        'Haftada 1 kez uzman koç görüşmesi',
         'Sınırsız soru bankası erişimi',
         'Detaylı performans analizi',
         'Öncelikli mobil uygulama özellikleri',
