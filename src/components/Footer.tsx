@@ -132,11 +132,11 @@ export function Footer() {
                 <div className="space-y-3 text-sm">
                   <div className="flex items-center text-gray-400">
                     <Mail size={16} className="mr-3 text-purple-400" />
-                    info@sinavkoc.ai
+                    info@sinavkocai.com
                   </div>
                   <div className="flex items-center text-gray-400">
                     <Phone size={16} className="mr-3 text-purple-400" />
-                    0850 123 45 67
+                    +90 533 615 12 40
                   </div>
                   <div className="flex items-center text-gray-400">
                     <MapPin size={16} className="mr-3 text-purple-400" />
