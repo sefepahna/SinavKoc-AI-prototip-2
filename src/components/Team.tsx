@@ -66,7 +66,7 @@ export function Team() {
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Sınav hazırlığında deneyime sahip, eğitim ve teknoloji alanında uzman kurucularımızla 
-            tanışın. Onların vizyonu ile SınavKoç AI\'ı hayata geçirdik.
+            tanışın. Onların vizyonu ile SınavKoç AI'ı hayata geçirdik.
           </p>
         </motion.div>
 
