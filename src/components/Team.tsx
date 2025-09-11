@@ -22,7 +22,7 @@ export function Team() {
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b5bb?w=400',
       linkedin: '#',
       twitter: '#',
-      email: 'ayse@sinavkoc.ai'
+      email: 'hasanberkyur@outlook.com'
     },
     {
       name: 'Prof. Dr. Ali Demir',
