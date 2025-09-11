@@ -34,19 +34,19 @@ export function Contact() {
     {
       icon: Mail,
       title: 'E-posta',
-      details: 'info@sinavkoc.ai',
+      details: 'info@sinavkocai.com',
       subtitle: 'Sorularınız için 7/24'
     },
     {
       icon: Phone,
       title: 'Telefon',
-      details: '0850 123 45 67',
+      details: '+90 533 615 12 40',
       subtitle: 'Pazartesi-Cuma 09:00-18:00'
     },
     {
       icon: MapPin,
       title: 'Adres',
-      details: 'Levent, Büyükdere Cd. No:171',
+      details: 'İstanbul',
       subtitle: 'İstanbul, Türkiye'
     }
   ];
