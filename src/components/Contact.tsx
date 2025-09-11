@@ -327,7 +327,7 @@ export function Contact() {
               },
               {
                 question: 'Hangi sınavlar için destek veriyorsunuz?',
-                answer: 'YKS, ALES, KPSS, DGS, YDS, IELTS ve daha birçok sınav için özel içerik ve koçluk desteği sunuyoruz.'
+                answer: 'YKS Sayısal&Eşit Ağırlık&Sözel öğrencileri için özel içerik ve koçluk desteği sunuyoruz.'
               },
               {
                 question: 'Yapay zeka analizleri ne kadar güvenilir?',
