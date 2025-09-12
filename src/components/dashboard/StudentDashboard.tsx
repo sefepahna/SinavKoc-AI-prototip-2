@@ -15,9 +15,25 @@ import {
   CheckCircle,
   AlertCircle,
   Play,
-  BarChart3
+  BarChart3,
+  Home,
+  FileText,
+  MessageCircle,
+  User,
+  Settings,
+  HelpCircle,
+  Folder,
+  GraduationCap,
+  X
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
+
+interface StudentNavItem {
+  id: string;
+  label: string;
+  icon: React.ElementType;
+  description?: string;
+}
 
 export function StudentDashboard() {
   // Sample data - in real app this would come from API
@@ -96,8 +112,8 @@ export function StudentDashboard() {
         </div>
       </motion.div>
 
-      {/* Stats Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        {/* Stats Cards */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
         {[
           { title: 'Haftalık İlerleme', value: '87%', change: '+12%', icon: TrendingUp, color: 'from-green-500 to-green-600' },
           { title: 'Çözülen Soru', value: '1,247', change: '+45', icon: BookOpen, color: 'from-blue-500 to-blue-600' },
@@ -129,7 +145,7 @@ export function StudentDashboard() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Weekly Plan */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -237,8 +253,8 @@ export function StudentDashboard() {
         </motion.div>
       </div>
 
-      {/* Performance Charts */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Performance Charts */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Performance by Subject */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -316,42 +332,42 @@ export function StudentDashboard() {
         </motion.div>
       </div>
 
-      {/* Quick Actions */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
-      >
-        <Card className="p-6 border-0 shadow-lg">
-          <h3 className="text-lg font-semibold text-gray-900 mb-6">Hızlı İşlemler</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <Button className="w-full h-20 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white rounded-xl shadow-lg">
-                <div className="text-center">
-                  <Play className="w-6 h-6 mx-auto mb-1" />
-                  <span className="text-sm font-medium">Yeni Test Başlat</span>
-                </div>
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <Button variant="outline" className="w-full h-20 border-2 border-orange-200 text-orange-600 hover:bg-orange-50 rounded-xl">
-                <div className="text-center">
-                  <Brain className="w-6 h-6 mx-auto mb-1" />
-                  <span className="text-sm font-medium">AI Önerisi Al</span>
-                </div>
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <Button variant="outline" className="w-full h-20 border-2 border-blue-200 text-blue-600 hover:bg-blue-50 rounded-xl">
-                <div className="text-center">
-                  <BookOpen className="w-6 h-6 mx-auto mb-1" />
-                  <span className="text-sm font-medium">Ders Notları</span>
-                </div>
-              </Button>
-            </motion.div>
-          </div>
-        </Card>
-      </motion.div>
+        {/* Quick Actions */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+        >
+          <Card className="p-6 border-0 shadow-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mb-6">Hızlı İşlemler</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                <Button className="w-full h-20 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white rounded-xl shadow-lg">
+                  <div className="text-center">
+                    <Play className="w-6 h-6 mx-auto mb-1" />
+                    <span className="text-sm font-medium">Yeni Test Başlat</span>
+                  </div>
+                </Button>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                <Button variant="outline" className="w-full h-20 border-2 border-orange-200 text-orange-600 hover:bg-orange-50 rounded-xl">
+                  <div className="text-center">
+                    <Brain className="w-6 h-6 mx-auto mb-1" />
+                    <span className="text-sm font-medium">AI Önerisi Al</span>
+                  </div>
+                </Button>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                <Button variant="outline" className="w-full h-20 border-2 border-blue-200 text-blue-600 hover:bg-blue-50 rounded-xl">
+                  <div className="text-center">
+                    <BookOpen className="w-6 h-6 mx-auto mb-1" />
+                    <span className="text-sm font-medium">Ders Notları</span>
+                  </div>
+                </Button>
+              </motion.div>
+            </div>
+          </Card>
+        </motion.div>
     </div>
   );
 }

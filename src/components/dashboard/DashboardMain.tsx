@@ -10,7 +10,11 @@ interface User {
   role: 'student' | 'coach';
 }
 
-export function DashboardMain() {
+interface DashboardMainProps {
+  onBackToHome: () => void;
+}
+
+export function DashboardMain({ onBackToHome }: DashboardMainProps) {
   const [user, setUser] = useState<User | null>(null);
   const [currentPage, setCurrentPage] = useState('home');
 
@@ -74,6 +78,7 @@ export function DashboardMain() {
       currentPage={currentPage}
       onPageChange={setCurrentPage}
       onLogout={handleLogout}
+      onBackToHome={onBackToHome}
     >
       {renderDashboardContent()}
     </DashboardLayout>

@@ -31,7 +31,7 @@ export function Pricing() {
       features: [
         'Gelişmiş AI analizi ve öneriler',
         'Haftada 1 kez uzman koç görüşmesi',
-        'Sınırsız soru bankası erişimi',
+        'Sınırsız yapay zeka erişimi',
         'Detaylı performans analizi',
         'Yeni özellikler ve iyileştirmelere erken erişim',
         'Gelişmiş analitik ve tahmin raporları',

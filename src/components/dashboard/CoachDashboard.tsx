@@ -24,9 +24,23 @@ import {
   AlertTriangle,
   Calendar,
   Target,
-  BarChart3
+  BarChart3,
+  Home,
+  ClipboardList,
+  Folder,
+  Settings,
+  HelpCircle,
+  User,
+  X
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
+
+interface CoachNavItem {
+  id: string;
+  label: string;
+  icon: React.ElementType;
+  description?: string;
+}
 
 export function CoachDashboard() {
   const [selectedStudent, setSelectedStudent] = useState<string | null>(null);
