@@ -155,7 +155,7 @@ export function StudentDashboard() {
     <div className="space-y-6">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <TabsList className="w-full flex-wrap h-auto gap-2 bg-white p-2 rounded-xl shadow-sm border border-gray-200">
-          <TabsTrigger value="ana-sayfa" className="flex items-center gap-2">
+          <TabsTrigger value="ana-sayfa" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <Home className="w-4 h-4" />
             Ana Sayfa
           </TabsTrigger>
