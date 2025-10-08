@@ -135,6 +135,11 @@ export function Contact() {
                 Acil durumlar için WhatsApp üzerinden 7/24 destek alabilirsiniz.
               </p>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <a
+               href="https://wa.me/905336151240?text=Merhaba%20S%C4%B1navKo%C3%A7%20AI%2C%20yard%C4%B1m%20istiyorum."
+               target="_blank"
+               rel="noopener noreferrer"
+             >
                 <Button
                   variant="outline"
                   size="sm"
