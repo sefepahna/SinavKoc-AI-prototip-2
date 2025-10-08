@@ -74,7 +74,6 @@ export function Hero() {
                   className="bg-gradient-to-r from-purple-600 to-orange-500 hover:from-purple-700 hover:to-orange-600 text-white px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Hemen Başla
-                  <ArrowRight className="ml-2" size={20} />
                 </Button>
               </motion.div>
 
@@ -87,7 +86,7 @@ export function Hero() {
                   size="lg"
                   className="px-8 py-4 rounded-full text-lg border-2 border-purple-200 text-purple-700 hover:bg-purple-50"
                 >
-                  <ArrowLeft className="mr-2" size={20} />
+                
                   Randevu Al
                 </Button>
               </motion.div>
