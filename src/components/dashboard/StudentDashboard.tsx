@@ -155,35 +155,35 @@ export function StudentDashboard() {
     <div className="space-y-6">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <TabsList className="w-full flex-wrap h-auto gap-2 bg-white p-2 rounded-xl shadow-sm border border-gray-200">
-          <TabsTrigger value="ana-sayfa" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900 hover:scale-105">
+          <TabsTrigger value="ana-sayfa" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <Home className="w-4 h-4" />
             Ana Sayfa
           </TabsTrigger>
-          <TabsTrigger value="deneme-sonuclari" className="flex items-center gap-2">
+          <TabsTrigger value="deneme-sonuclari" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <BarChart3 className="w-4 h-4" />
             Deneme Sonuçları
           </TabsTrigger>
-          <TabsTrigger value="calisma-plani" className="flex items-center gap-2">
+          <TabsTrigger value="calisma-plani" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <Calendar className="w-4 h-4" />
             Çalışma Planı
           </TabsTrigger>
-          <TabsTrigger value="konu-ozetleri" className="flex items-center gap-2">
+          <TabsTrigger value="konu-ozetleri" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <BookOpen className="w-4 h-4" />
             Konu Özetleri & Quiz
           </TabsTrigger>
-          <TabsTrigger value="kaynaklar" className="flex items-center gap-2">
+          <TabsTrigger value="kaynaklar" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <FileText className="w-4 h-4" />
             Kaynaklar
           </TabsTrigger>
-          <TabsTrigger value="koc-gorusmeleri" className="flex items-center gap-2">
+          <TabsTrigger value="koc-gorusmeleri" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <ClipboardList className="w-4 h-4" />
             Koç Görüşmeleri
           </TabsTrigger>
-          <TabsTrigger value="bildirimler" className="flex items-center gap-2">
+          <TabsTrigger value="bildirimler" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <Bell className="w-4 h-4" />
             Bildirimler
           </TabsTrigger>
-          <TabsTrigger value="profil" className="flex items-center gap-2">
+          <TabsTrigger value="profil" className="flex items-center gap-2 transition-all hover:bg-gray-100 hover:text-gray-900">
             <User className="w-4 h-4" />
             Profil & Ayarlar
           </TabsTrigger>
